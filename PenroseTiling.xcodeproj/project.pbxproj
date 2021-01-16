@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D6CE46225B374320023696E /* PenroseTilingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6CE46125B374320023696E /* PenroseTilingApp.swift */; };
+		7D6CE46425B374320023696E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6CE46325B374320023696E /* ContentView.swift */; };
+		7D6CE46625B374340023696E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D6CE46525B374340023696E /* Assets.xcassets */; };
+		7D6CE46925B374340023696E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D6CE46825B374340023696E /* Preview Assets.xcassets */; };
+		7D6CE47425B374340023696E /* PenroseTilingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6CE47325B374340023696E /* PenroseTilingTests.swift */; };
+		7D6CE47F25B374340023696E /* PenroseTilingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6CE47E25B374340023696E /* PenroseTilingUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7D6CE47025B374340023696E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D6CE45625B374320023696E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D6CE45D25B374320023696E;
+			remoteInfo = PenroseTiling;
+		};
+		7D6CE47B25B374340023696E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D6CE45625B374320023696E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D6CE45D25B374320023696E;
+			remoteInfo = PenroseTiling;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7D6CE45E25B374320023696E /* PenroseTiling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PenroseTiling.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D6CE46125B374320023696E /* PenroseTilingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PenroseTilingApp.swift; sourceTree = "<group>"; };
+		7D6CE46325B374320023696E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7D6CE46525B374340023696E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7D6CE46825B374340023696E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7D6CE46A25B374340023696E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D6CE46F25B374340023696E /* PenroseTilingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PenroseTilingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D6CE47325B374340023696E /* PenroseTilingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PenroseTilingTests.swift; sourceTree = "<group>"; };
+		7D6CE47525B374340023696E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D6CE47A25B374340023696E /* PenroseTilingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PenroseTilingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D6CE47E25B374340023696E /* PenroseTilingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PenroseTilingUITests.swift; sourceTree = "<group>"; };
+		7D6CE48025B374340023696E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D6CE45B25B374320023696E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D6CE46C25B374340023696E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D6CE47725B374340023696E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D6CE45525B374320023696E = {
+			isa = PBXGroup;
+			children = (
+				7D6CE46025B374320023696E /* PenroseTiling */,
+				7D6CE47225B374340023696E /* PenroseTilingTests */,
+				7D6CE47D25B374340023696E /* PenroseTilingUITests */,
+				7D6CE45F25B374320023696E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7D6CE45F25B374320023696E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D6CE45E25B374320023696E /* PenroseTiling.app */,
+				7D6CE46F25B374340023696E /* PenroseTilingTests.xctest */,
+				7D6CE47A25B374340023696E /* PenroseTilingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D6CE46025B374320023696E /* PenroseTiling */ = {
+			isa = PBXGroup;
+			children = (
+				7D6CE46125B374320023696E /* PenroseTilingApp.swift */,
+				7D6CE46325B374320023696E /* ContentView.swift */,
+				7D6CE46525B374340023696E /* Assets.xcassets */,
+				7D6CE46A25B374340023696E /* Info.plist */,
+				7D6CE46725B374340023696E /* Preview Content */,
+			);
+			path = PenroseTiling;
+			sourceTree = "<group>";
+		};
+		7D6CE46725B374340023696E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7D6CE46825B374340023696E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7D6CE47225B374340023696E /* PenroseTilingTests */ = {
+			isa = PBXGroup;
+			children = (
+				7D6CE47325B374340023696E /* PenroseTilingTests.swift */,
+				7D6CE47525B374340023696E /* Info.plist */,
+			);
+			path = PenroseTilingTests;
+			sourceTree = "<group>";
+		};
+		7D6CE47D25B374340023696E /* PenroseTilingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7D6CE47E25B374340023696E /* PenroseTilingUITests.swift */,
+				7D6CE48025B374340023696E /* Info.plist */,
+			);
+			path = PenroseTilingUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7D6CE45D25B374320023696E /* PenroseTiling */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D6CE48325B374340023696E /* Build configuration list for PBXNativeTarget "PenroseTiling" */;
+			buildPhases = (
+				7D6CE45A25B374320023696E /* Sources */,
+				7D6CE45B25B374320023696E /* Frameworks */,
+				7D6CE45C25B374320023696E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PenroseTiling;
+			productName = PenroseTiling;
+			productReference = 7D6CE45E25B374320023696E /* PenroseTiling.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7D6CE46E25B374340023696E /* PenroseTilingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D6CE48625B374340023696E /* Build configuration list for PBXNativeTarget "PenroseTilingTests" */;
+			buildPhases = (
+				7D6CE46B25B374340023696E /* Sources */,
+				7D6CE46C25B374340023696E /* Frameworks */,
+				7D6CE46D25B374340023696E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D6CE47125B374340023696E /* PBXTargetDependency */,
+			);
+			name = PenroseTilingTests;
+			productName = PenroseTilingTests;
+			productReference = 7D6CE46F25B374340023696E /* PenroseTilingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7D6CE47925B374340023696E /* PenroseTilingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D6CE48925B374340023696E /* Build configuration list for PBXNativeTarget "PenroseTilingUITests" */;
+			buildPhases = (
+				7D6CE47625B374340023696E /* Sources */,
+				7D6CE47725B374340023696E /* Frameworks */,
+				7D6CE47825B374340023696E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D6CE47C25B374340023696E /* PBXTargetDependency */,
+			);
+			name = PenroseTilingUITests;
+			productName = PenroseTilingUITests;
+			productReference = 7D6CE47A25B374340023696E /* PenroseTilingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D6CE45625B374320023696E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					7D6CE45D25B374320023696E = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					7D6CE46E25B374340023696E = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 7D6CE45D25B374320023696E;
+					};
+					7D6CE47925B374340023696E = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 7D6CE45D25B374320023696E;
+					};
+				};
+			};
+			buildConfigurationList = 7D6CE45925B374320023696E /* Build configuration list for PBXProject "PenroseTiling" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7D6CE45525B374320023696E;
+			productRefGroup = 7D6CE45F25B374320023696E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D6CE45D25B374320023696E /* PenroseTiling */,
+				7D6CE46E25B374340023696E /* PenroseTilingTests */,
+				7D6CE47925B374340023696E /* PenroseTilingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7D6CE45C25B374320023696E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D6CE46925B374340023696E /* Preview Assets.xcassets in Resources */,
+				7D6CE46625B374340023696E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D6CE46D25B374340023696E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D6CE47825B374340023696E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D6CE45A25B374320023696E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D6CE46425B374320023696E /* ContentView.swift in Sources */,
+				7D6CE46225B374320023696E /* PenroseTilingApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D6CE46B25B374340023696E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D6CE47425B374340023696E /* PenroseTilingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D6CE47625B374340023696E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D6CE47F25B374340023696E /* PenroseTilingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7D6CE47125B374340023696E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D6CE45D25B374320023696E /* PenroseTiling */;
+			targetProxy = 7D6CE47025B374340023696E /* PBXContainerItemProxy */;
+		};
+		7D6CE47C25B374340023696E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D6CE45D25B374320023696E /* PenroseTiling */;
+			targetProxy = 7D6CE47B25B374340023696E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7D6CE48125B374340023696E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7D6CE48225B374340023696E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7D6CE48425B374340023696E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"PenroseTiling/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = PenroseTiling/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jcaguilera.PenroseTiling;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7D6CE48525B374340023696E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"PenroseTiling/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = PenroseTiling/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jcaguilera.PenroseTiling;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7D6CE48725B374340023696E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PenroseTilingTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jcaguilera.PenroseTilingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PenroseTiling.app/PenroseTiling";
+			};
+			name = Debug;
+		};
+		7D6CE48825B374340023696E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PenroseTilingTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jcaguilera.PenroseTilingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PenroseTiling.app/PenroseTiling";
+			};
+			name = Release;
+		};
+		7D6CE48A25B374340023696E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PenroseTilingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jcaguilera.PenroseTilingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PenroseTiling;
+			};
+			name = Debug;
+		};
+		7D6CE48B25B374340023696E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PenroseTilingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jcaguilera.PenroseTilingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PenroseTiling;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D6CE45925B374320023696E /* Build configuration list for PBXProject "PenroseTiling" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D6CE48125B374340023696E /* Debug */,
+				7D6CE48225B374340023696E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D6CE48325B374340023696E /* Build configuration list for PBXNativeTarget "PenroseTiling" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D6CE48425B374340023696E /* Debug */,
+				7D6CE48525B374340023696E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D6CE48625B374340023696E /* Build configuration list for PBXNativeTarget "PenroseTilingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D6CE48725B374340023696E /* Debug */,
+				7D6CE48825B374340023696E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D6CE48925B374340023696E /* Build configuration list for PBXNativeTarget "PenroseTilingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D6CE48A25B374340023696E /* Debug */,
+				7D6CE48B25B374340023696E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7D6CE45625B374320023696E /* Project object */;
+}
