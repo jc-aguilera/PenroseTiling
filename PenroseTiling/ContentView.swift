@@ -144,11 +144,19 @@ func deflate(_ triangle: PenroseTriangle, levels: Int = 0) -> [PenroseTriangle] 
 struct Triangle: Shape {
     
     var triangleType: TriangleType = .acute
+    @Binding var iterations: Int
+    
     func path(in rect: CGRect) -> Path {
         var path = Path()
         
-        let myTriangle = PenroseTriangle(type: .acute, startPoint: CGPoint(x: rect.minX, y: rect.minX), endPoint:  CGPoint(x: rect.maxX, y: rect.minY), mirrored: true)
-        var triangles = deflate(myTriangle, levels: 7)
+        var triangleList = [
+            PenroseTriangle(type: .acute, startPoint: CGPoint(x: rect.midX, y: rect.minY), middlePoint: CGPoint(x: rect.midX, y: rect.midY))
+        ]
+        for i in 1..<10 {
+            triangleList.append(PenroseTriangle(type: .acute, startPoint: triangleList[i-1].endPoint, middlePoint: CGPoint(x: rect.midX, y: rect.midY), mirrored: i % 2 == 1))
+        }
+
+        var triangles = deflate(triangleList, levels: iterations)
         
         triangles = triangles.filter { $0.type == self.triangleType}
         for triangle in triangles {
@@ -160,14 +168,19 @@ struct Triangle: Shape {
 }
 
 struct ContentView: View {
+    @State var iterations = 1
     var body: some View {
-        ZStack {
-            Triangle().fill(Color.yellow).frame(width: 300, height: 300, alignment: .center)
-            Triangle(triangleType: .obtuse).fill(Color.green).frame(width: 300, height: 300, alignment: .center)
-            Triangle().stroke(Color.black).frame(width: 300, height: 300, alignment: .center)
-            Triangle(triangleType: .obtuse).stroke(Color.black).frame(width: 300, height: 300, alignment: .center)
+        VStack {
+            ZStack {
+                Triangle(iterations: $iterations).fill(Color.yellow).frame(width: 300, height: 300, alignment: .center)
+                Triangle(triangleType: .obtuse, iterations: $iterations).fill(Color.green).frame(width: 300, height: 300, alignment: .center)
+                Triangle(iterations: $iterations).stroke(Color.black).frame(width: 300, height: 300, alignment: .center)
+                Triangle(triangleType: .obtuse, iterations: $iterations).stroke(Color.black).frame(width: 300, height: 300, alignment: .center)
 
+            }
+            Stepper("Iterations: \(iterations)", value: $iterations, in: 1...7)
         }
+        .padding()
     }
 }
 
